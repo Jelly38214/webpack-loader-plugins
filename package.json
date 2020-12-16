@@ -1,0 +1,26 @@
+{
+  "name": "webpack-loader-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start2": "nodemon --exec \"webpack\" ./src/index.js",
+    "build": "webpack",
+    "webpack": "webpack --hot",
+    "test": "node ./run-loader.js"
+  },
+  "dependencies": {
+    "@types/loader-runner": "2.2.3",
+    "@types/loader-utils": "2.0.1",
+    "loader-runner": "4.1.0",
+    "loader-utils": "2.0.0",
+    "spritesmith": "3.4.0",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
