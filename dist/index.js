@@ -1,4 +1,5 @@
-const a = 1;
-console.log("iii");
+const c = 1;
+console.log(c);
 
-require("fs")
+// Use comment-require-loader to transform it.
+require("path")
