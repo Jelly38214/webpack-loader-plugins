@@ -1,0 +1,5 @@
+[2020-12-23T14:31:48.828] [DEBUG] default - This is a DEBUG msg
+[2020-12-23T14:31:48.830] [INFO] default - This is a INFO msg
+[2020-12-23T14:31:48.830] [WARN] default - This is a WARN msg
+[2020-12-23T14:31:48.830] [ERROR] default - This is a ERROR msg
+[2020-12-23T14:31:48.830] [FATAL] default - This is FATAL msg 

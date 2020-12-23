@@ -19,3 +19,12 @@ module.exports = class EndWebpackPlugins {
     });
   }
 };
+
+window.addEvenlistern("done", function () {});
+
+window.eventQueue = {};
+window.addEventListern = (eventName, callback) => {
+  window.eventQueue[eventName].push = callback;
+};
+
+window.eventQueue["done"].forEach((cb) => cb(compiler));

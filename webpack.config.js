@@ -6,7 +6,9 @@ module.exports = {
   entry: "/src/index.js",
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "main.js"
+    filename: "[name].js",
+    // 为动态加载的chunk配置输出文件的名称
+    chunkFilename: "[name].js"
   },
   plugins: [
     new EndWebpackPlugin(
