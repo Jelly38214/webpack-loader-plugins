@@ -19,6 +19,8 @@
     "loader-runner": "4.1.0",
     "loader-utils": "2.0.0",
     "log4js": "6.3.0",
+    "pino": "6.9.0",
+    "pino-pretty": "4.3.0",
     "spritesmith": "3.4.0",
     "supports-color": "8.1.0",
     "webpack": "4.41.6",
